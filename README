@@ -1,10 +1,5 @@
-david96, itzhak
-David Rotenberg (315518175), Itzhak Stern (302789722)
-EX: 4
-
-FILES:
-VirtualMemoty.cpp - the library for the managing the virtual memory
-Makefile - the make file for the VirtualMemoty.cpp
-README -- this file
-
-REMARKS:
+Hierarchical page tables use a tree of smaller tables to save memory.
+This effectively separates the translation into multiple steps.
+These tables reside in frames of the RAM just like any other page.
+Each row of a table either contains the number of frames containing the next table in the layer below it or,
+if it is in the lowest layer, the number of frames containing the relevant page.
