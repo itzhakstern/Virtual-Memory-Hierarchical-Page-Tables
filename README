@@ -1,0 +1,10 @@
+david96, itzhak
+David Rotenberg (315518175), Itzhak Stern (302789722)
+EX: 4
+
+FILES:
+VirtualMemoty.cpp - the library for the managing the virtual memory
+Makefile - the make file for the VirtualMemoty.cpp
+README -- this file
+
+REMARKS:
